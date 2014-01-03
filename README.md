@@ -10,9 +10,9 @@ This Project has various modules. Find the appliation of each module below
 5. python scripts to automate complete process
 
 ##Module 2 - Automate Web Crawling -Crwl Jax##
-1.Create a Maven Project to crawl a web application using Crawl Jax (Automated crawling tool)
-2.Generate static report from each servlet on different types of tags ( <a> , <input> ,<form> )
-3.Measure coverage using cobertura tool
+1. Create a Maven Project to crawl a web application using Crawl Jax (Automated crawling tool)
+2. Generate static report from each servlet on different types of tags ( <a> , <input> ,<form> )
+3. Measure coverage using cobertura tool
 
 ##Module 3 - Black Box Testing  -Selenium##
 1.Generate various black box test cases using selenium
