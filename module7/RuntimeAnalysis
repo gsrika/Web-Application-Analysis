@@ -1,0 +1,16 @@
+
+
+a)Total runtime for intial suite : %d:%02d:%02d:%02.4f\n 0 0 2 48.810437927
+
+    total time for complete suite is 2.48 minute 
+
+
+b)Total runtime for selective suite (regression suite )
+Total runtime for selected suite  : %d:%02d:%02d:%02.4f\n 0 0 1 46.126063928
+
+
+C) Total savings = Inital suite run - selective suite run
+
+Total savings through regression   : %d:%02d:%02d:%02.4f\n 0 0 1 2.684373999
+
+

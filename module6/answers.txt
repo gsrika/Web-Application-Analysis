@@ -1,0 +1,122 @@
+
+
+1)
+
+
+    A) X="MC" ,Y="MD"
+    Answer : No
+    X is instruciton number 228 , Y is instruction numbers (110,301)
+    No path is present between these values
+
+    B)X="MA'  ,Y="MB"
+    Answer:YES
+    x is instruciton number (493,62) , Y is instruciton number 490
+    There is exists followoing path
+    493-->496-->499-->501-->502-->503-->490
+    62-->65-->68-->69-->70-->71-->74-->77-->78-->79-->80-->83-->86-->87-->88-->89-->92-->95-->96-->97-->98-->101-->104-->105-->106-->107--      
+    >110-->113-->114-->115-->116-->117-->152-->155-->171-->172-->173-->158-->159-->160-->162-->165-->168-->223-->224-->225-->307-->308-->309--     
+    >310-- >232-->233-->234-->235-->236-->237-->238-->244-->245-->246-->288-->289-->291-->249-->250-->252-->255-->294-->295-->298-->301-->304--
+    >313-->316-->317-->318-->319-->321-->322-->323-->325-->326-->328-->329-->331-->428-->430-->432-->435-->436-->437-->440-->441-->443-->539--
+    >541->542-->543-->446-->447-->448-->451-->452-->454-->529-->531-->532-->533-->457-->458-->459-->462-->463-->465-->519-->521-->522-->523-->468--
+    >469-->470-->473-->474-->476-->509-->511-->512-->513-->479-->480-->481-->484-->485-->487-->499-->501-->502-->503-->490 
+    
+    C)X="MC" ,Y="MA"
+    Answer:NO
+    x is instrcution number 228, y is instruciton number (493,62)
+    No path between x to y for the above values
+    
+    D)x="MD" ,Y="MC"
+    Answer:NO
+    X is insruciton number 110,301 ,y is instruciton number 228
+    No path is present between 301-->228 
+    
+    
+2)
+
+    A) X=MC ,Y=MB
+    Answer: YES
+    X is instruction number 228, y is instruction number 490
+    There exists a path between 0 to 228 ( X) which doesn't have Y on the path..
+    0-->1-->2-->3-->4-->5-->6-->7-->8-->9-->10-->110-->113-->114-->115-->116-->117-->152-->155-->171-->172-->173-->158-->159-->160-->162--      
+    >165-->168-->223-->224-->225-->228
+    
+    B)X="MD" ,Y="MC"
+    Answer:YES
+    X is instruction number 110,301 ..Y is instruciton number 228
+    There exists a path between 0 t0 110 which doesn't have Y on path
+    0-->1-->2-->3-->4-->5-->6-->7-->8-->9-->10-->110
+
+
+    C)X="ME" , Y="MG"
+    Answer:YES
+    X is instruciton number 189,313 .. Y is instruciton number 165
+    There exists a path between 0 t0 189 which doesn't have Y on path
+    0-->1-->2-->3-->4-->5-->6-->7-->8-->9-->10-->110-->113-->114-->115-->116-->117-->179-->180-->181-->198-->199-->200-->201-->184-->185-->186--
+    >189
+    
+    D)X="MA" , Y="MB"
+    Answer:YEs
+    X is instruciton number 62,493 ... Y is instruciton number 490
+    There exists a path between 0 to 62 which doesn't have Y on it's path
+    0-->1-->2-->3-->4-->5-->6-->7-->8-->9-->10-->13-->14-->15-->104-->105-->106-->107-->18-->19-->20-->23-->24-->26-->95-->96-->97-->98-->29-->30--
+    >31-->34-->35-->37-->86-->87-->88-->89-->40-->41-->42-->45-->46-->48-->77-->78-->79-->80-->51-->52-->53-->56-->57-->59-->68-->69-->70-->71-->62
+    
+    
+    
+    
+ 3)
+ 
+ 
+    A)X="MA" Y="MA"
+    Answer:YES
+    X is instruction number 62, Y is instruciton number 493
+    There exists a path between 62->493
+    62-->65-->68-->69-->70-->71-->74-->77-->78-->79-->80-->83-->86-->87-->88-->89-->92-->95-->96-->97-->98-->101-->104-->105-->106-->107-->110--
+    >113-->114-->115-->116-->117-->152-->155-->171-->172-->173-->158-->159-->160-->162-->165-->168-->223-->224-->225-->307-->308-->309-->310--
+    >232->233-->234-->235-->236-->237-->238-->244-->245-->246-->288-->289-->291-->249-->250-->252-->255-->294-->295-->298-->301-->304-->313-->316--
+    >317-->318-->319-->321-->322-->323-->325-->326-->328-->329-->331-->428-->430-->432-->435-->436-->437-->440-->441-->443-->539-->541-->542--
+    >543-->446-->447-->448-->451-->452-->454-->529-->531-->532-->533-->457-->458-->459-->462-->463-->465-->519-->521-->522-->523-->468-->469--
+    >470-->473-->474-->476-->509-->511-->512-->513-->479-->480-->481-->484-->485-->487-->499-->501-->502-->503-->490-->493   
+    
+    
+    B)X="MG" ,Y="MG"
+    
+    Answer : NO
+    Since there is only one call to function MG at instruciton number 165
+    
+    
+    C)X="ME" , Y="MG"
+    Answer: YEs
+    X is instruction at 189,313 and Y is instruction at 165
+    There exists a path between 165-->313
+    165-->168-->223-->224-->225-->307-->308-->309-->310-->313
+    
+    D)X="MH" , Y="MI"
+    Answer:Yes
+    X is instruciotn at 396 , Y is instruciton at 403
+    There exists a path between 403-->396 and there exists a path between (0 to 403)
+    
+    
+ 4)   
+ 
+ 
+    A)X="MA" , Y="MB"
+    Answer:NO
+    X is instruction number (62,493) .. Y is instruction number 490
+    There is no path between 490--->62
+    
+    B)X="MH" Y="ME"
+    Answer:YES
+    X is instruciton number 396 .. Y is instruction number  189,313
+    313 comes on path to 396
+    
+    C)X="MB" , Y="MJ"
+    Answer":YES
+    X is instruction number (490) , Y is instruciton number (152,204,214,220)
+    152 comes on path to 490
+    
+    D)X="MJ" , Y="MD"
+    Answer":YES
+    X is instruction number (152,204,214,220) , Y is instruction nummber (110,301)
+    each path to (152,204,214,220) has 110 or 301
+    
